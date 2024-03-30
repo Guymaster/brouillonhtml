@@ -1,0 +1,72 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    box-shadow: 4px 4px 16px;
+}
+
+.logoNav {
+    display: flex;
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    width: 500px;
+}
+
+header ul li {
+    margin: 0px 10px;
+}
+
+header nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.gmcLogo {
+    margin-right: 20px;
+}
+
+.bleu {
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    background-color: blue;
+}
+
+.info {
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+}
+
+.imgProfil {
+    height: 50px;
+    width: 50px;
+}
+
+.menuCache {
+    display: none;
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+}
+
+@media (max-width: 990px) {
+    .info{
+        display: none;
+    }
+    header nav {
+        display: none;
+    }
+    .menuCache {
+        display: block;
+    }
+}
